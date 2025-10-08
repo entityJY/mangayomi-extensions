@@ -1,4 +1,4 @@
-# Mangayomi Extensions
+# EJ's Mangayomi Extensions
 
 This repository contains the available extension catalogues for the Mangayomi app.
 
@@ -6,13 +6,13 @@ This repository contains the available extension catalogues for the Mangayomi ap
 
 Click on one of the buttons below to add the corresponding repository/repositories:
 
-<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26manga_url=https://kodjodevf.github.io/mangayomi-extensions/index.json%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json%26novel_url=https://kodjodevf.github.io/mangayomi-extensions/novel_index.json"><img alt="Add all repositories" src="images/add-all-repositories.png" height="35"></a>
+<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26manga_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/index.json%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json%26novel_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/novel_index.json"><img alt="Add all repositories" src="images/add-all-repositories.png" height="35"></a>
 
-<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26manga_url=https://kodjodevf.github.io/mangayomi-extensions/index.json"><img alt="Add manga repository" src="images/add-manga-repository.png" height="35"></a>
+<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26manga_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/index.json"><img alt="Add manga repository" src="images/add-manga-repository.png" height="35"></a>
 
-<!-- <a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json"><img alt="Add anime repository" src="images/add-anime-repository.png" height="35"></a> -->
+<!-- <a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json"><img alt="Add anime repository" src="images/add-anime-repository.png" height="35"></a> -->
 
-<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26novel_url=https://kodjodevf.github.io/mangayomi-extensions/novel_index.json"><img alt="Add novel repository" src="images/add-novel-repository.png" height="35"></a>
+<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26novel_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/novel_index.json"><img alt="Add novel repository" src="images/add-novel-repository.png" height="35"></a>
 
 If you installed the app via Live Container, then use the following buttons instead:
 
@@ -27,8 +27,9 @@ If you installed the app via Live Container, then use the following buttons inst
 Or add them manually in the app (More -> Settings -> Browse):
 
 manga repo
-```
-https://kodjodevf.github.io/mangayomi-extensions/index.json
+
+```url
+https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/index.json
 ```
 
 <!-- anime repo 
@@ -36,12 +37,13 @@ https://kodjodevf.github.io/mangayomi-extensions/index.json
 https://kodjodevf.github.io/mangayomi-extensions/anime_index.json
 ``` -->
 
-novel repo 
-```
-https://kodjodevf.github.io/mangayomi-extensions/novel_index.json
+novel repo
+
+```url
+https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/novel_index.json
 ```
 
-# Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -49,21 +51,19 @@ To get started with development, see [CONTRIBUTING-DART.md](./CONTRIBUTING-DART.
 
 ## License
 
-    Copyright 2023 Moustapha Kodjo Amadou
+Copyright 2023 Moustapha Kodjo Amadou
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+<http://www.apache.org/licenses/LICENSE-2.0>
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## Disclaimer
 
