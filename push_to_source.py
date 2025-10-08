@@ -31,3 +31,5 @@ else:
 
 print("User: git push -u origin updated_extensions")
 os.system("git push -u origin updated_extensions")
+print("User: git switch main")
+os.system("git switch main")
