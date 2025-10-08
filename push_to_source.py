@@ -31,6 +31,3 @@ else:
 
 print("User: git push -u origin updated_extensions")
 os.system("git push -u origin updated_extensions")
-
-print("User: gh pr create --head updated_extensions -w")
-os.system("gh pr create --head updated_extensions -w")
