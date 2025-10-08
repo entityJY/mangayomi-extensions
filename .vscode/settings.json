@@ -1,0 +1,14 @@
+{
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": [
+                "a",
+                "img"
+            ]
+        }
+    },
+    "cSpell.ignoreWords": [
+        "Kodjo",
+        "Moustapha"
+    ]
+}
