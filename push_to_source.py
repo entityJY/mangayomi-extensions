@@ -7,6 +7,7 @@ print("Single Commit (y/n)")
 if input() == "y":
     print("Enter commit id")
     commit = input()
+    print("git cherry-pick " + commit)
     os.system("git cherry-pick " + commit)
 else:
     print("Enter first commit")
