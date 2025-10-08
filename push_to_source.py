@@ -7,8 +7,8 @@ print("Reset extension branch? (y/n)")
 if input() == "y":
     print("User: git push -d origin updated_extensions")
     os.system("git push -d origin updated_extensions")
-    print("User: git branch -d updated_extensions")
-    os.system("git branch -d updated_extensions")
+    print("User: git branch -D updated_extensions")
+    os.system("git branch -D updated_extensions")
     print("User: git checkout -b updated_extensions upstream/main")
     os.system("git checkout -b updated_extensions upstream/main")
 else:
