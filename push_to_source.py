@@ -2,8 +2,16 @@ import os
 
 print("User: git fetch --all")
 os.system("git fetch --all")
-print("User: git checkout -b updated_extensions upstream/main")
-os.system("git checkout -b updated_extensions upstream/main")
+
+print("Reset extension branch? (y/n)")
+if input() == "y":
+    print("User: git branch -d updated_extensions")
+    os.system("git branch -d updated_extensions")
+    print("User: git checkout -b updated_extensions upstream/main")
+    os.system("git checkout -b updated_extensions upstream/main")
+else:
+    print("User: git switch updated_extensions")
+    os.system("git switch updated_extensions")
 
 print("Single Commit (y/n)")
 if input() == "y":
