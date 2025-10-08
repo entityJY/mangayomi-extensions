@@ -14,9 +14,9 @@ jobs:
                 run: |
                     git config --local user.email "github-actions[bot]@users.noreply.github.com"
                     git config --local user.name "github-actions[bot]"
-                    git config pull.rebase false
                     git sparse-checkout set --no-cone dart javascript
-                    git pull --allow-unrelated-histories https://github.com/kodjodevf/mangayomi-extensions.git main
+                    git fetch https://github.com/kodjodevf/mangayomi-extensions.git main
+                    git checkout main
                     if git diff --cached --quiet; then
                         echo "No changes detected, skipping commit."
                     else
